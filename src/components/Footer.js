@@ -11,13 +11,13 @@ const Footer = () => {
   let GitHubURL = ''
   let TKSiteURL = ''
   return (
-    <div className='site-footer'>
+    <footer className='site-footer'>
       <div className='site-footer__logos'>
-      <Logo url={LinkedInURL} image={LinkedInLogo}></Logo>
-      <Logo url={GitHubURL} image={GitHubLogo}></Logo>
-      <Logo url={TKSiteURL} image={NotesLogo}></Logo>
+        <Logo url={LinkedInURL} image={LinkedInLogo}></Logo>
+        <Logo url={GitHubURL} image={GitHubLogo}></Logo>
+        <Logo url={TKSiteURL} image={NotesLogo}></Logo>
       </div>
-    </div>
+    </footer>
   )
 }
 
