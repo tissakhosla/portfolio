@@ -2,12 +2,13 @@ import React from "react";
 import "./Button.css";
 import Button from './Button';
 import ImageDiv from './ImageDiv';
+import './ButtonAndImage.css';
 
 const ButtonAndImage = (props) => {
   return (
-    <div>
+    <div className='ButtonAndImage'>
       <Button label={props.label}></Button>
-      <ImageDiv source={props.source}></ImageDiv>
+      <ImageDiv item='resumePic' source={props.source}></ImageDiv>
     </div>
   )
 }

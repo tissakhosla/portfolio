@@ -1,8 +1,6 @@
-.Header {
-  margin: 0px;
-}
-
 .Header__h1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+  font-weight: lighter;
+  font-family: monospace;
   text-align: center;
 }

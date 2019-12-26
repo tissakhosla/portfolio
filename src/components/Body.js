@@ -6,8 +6,9 @@ import './Body.css'
 const Body = () => {
   return (
     <div className='Body'>
-      <Header headerText={`Tissa Khosla - Software Development`}></Header>
+      <Header headerText={`tissa khosla - software development`}></Header>
       <Main></Main>
+      
     </div>
   )
 }

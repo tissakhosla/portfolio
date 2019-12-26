@@ -1,7 +1,6 @@
-.ImageDiv {
+.ImageDiv-resumePic {
   width: 400px;
   height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: -9em;
+  object-fit: cover;
+  object-position: right;
 }
