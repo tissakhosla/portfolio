@@ -7,7 +7,7 @@ import './ButtonAndImage.css';
 const ButtonAndImage = (props) => {
   return (
     <div className='ButtonAndImage'>
-      <Button label={props.label}></Button>
+      <Button link={props.link} label={props.label}></Button>
       <ImageDiv item='resumePic' source={props.source}></ImageDiv>
     </div>
   )

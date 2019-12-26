@@ -7,9 +7,9 @@ import GitHubLogo from '../assets/GitHub-Mark-120px-plus.png';
 import NotesLogo from '../assets/music-player.png';
 
 const Footer = () => {
-  let LinkedInURL = ''
-  let GitHubURL = ''
-  let TKSiteURL = ''
+  let LinkedInURL = 'https://www.linkedin.com/in/tissa-khosla-b4583062/'
+  let GitHubURL = 'https://github.com/tissakhosla'
+  let TKSiteURL = 'https://www.tissakhosla.com/'
   return (
     <footer className='site-footer'>
       <div className='site-footer__logos'>

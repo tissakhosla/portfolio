@@ -10,3 +10,7 @@
   background:  rgb(55, 61, 63);
   color: white;
 }
+
+.Button__main:focus {
+  outline: none;
+}
