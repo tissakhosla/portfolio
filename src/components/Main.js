@@ -11,9 +11,9 @@ const Main = () => {
   let writingURL = 'https://medium.com/@the_new_old_fashioned'
   return (
     <div className='Main'>
-      <ButtonAndImage link={resumeURL} label='RESUME' source={ProfilePicture}></ButtonAndImage>
-      <ButtonAndImage link={projectsURL} label='PROJECTS' source={projectsPic}></ButtonAndImage>
-      <ButtonAndImage link={writingURL} label='WRITING' source={youngTissaPic}></ButtonAndImage>
+      <ButtonAndImage altText='Tissa in front of a mural' item='resume' link={resumeURL} label='RESUME' source={ProfilePicture}></ButtonAndImage>
+      <ButtonAndImage altText='Screenshot of Spotify API code' item='projects' link={projectsURL} label='PROJECTS' source={projectsPic}></ButtonAndImage>
+      <ButtonAndImage altText='Tissa at 8 years old at the PC' item='writing' link={writingURL} label='WRITING' source={youngTissaPic}></ButtonAndImage>
     </div>
   )
 }

@@ -8,7 +8,7 @@ const ButtonAndImage = (props) => {
   return (
     <div className='ButtonAndImage'>
       <Button link={props.link} label={props.label}></Button>
-      <ImageDiv item='resumePic' source={props.source}></ImageDiv>
+      <ImageDiv altText={props.altText} item={props.item} source={props.source}></ImageDiv>
     </div>
   )
 }

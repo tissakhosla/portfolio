@@ -3,8 +3,9 @@ import './ImageDiv.css'
 
 const imageDiv = (props) => {
   let classList = `ImageDiv-${props.item}`
+   console.log(props.item)
   return (
-    <img className={classList} alt='Picture of 8 year old Tissa at a computer' src={props.source}></img>
+    <img className={classList} alt={props.altText} src={props.source}></img>
   )
 }
 

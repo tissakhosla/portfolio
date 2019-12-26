@@ -1,6 +1,11 @@
-.ImageDiv-resumePic {
+.ImageDiv-writing, .ImageDiv-resume, .ImageDiv-projects {
   width: 400px;
   height: 400px;
   object-fit: cover;
-  object-position: right;
+}
+
+
+.ImageDiv-writing {
+  object-position: -10em;
+  object-fit: cover;
 }
