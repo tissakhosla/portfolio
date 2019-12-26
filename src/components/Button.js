@@ -7,8 +7,5 @@ const Button = (props) => {
   )
 }
 
-Button.defaultProps = {
-  label: "click me"
-};
 
 export default Button;

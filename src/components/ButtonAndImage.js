@@ -1,16 +1,15 @@
 import React from "react";
 import "./Button.css";
-import Button from './Button'
+import Button from './Button';
+import ImageDiv from './ImageDiv';
 
-const Button = (props) => {
+const ButtonAndImage = (props) => {
   return (
-    <button className='Button'>{props.label}</button>
-    <img></img>
+    <div>
+      <Button label={props.label}></Button>
+      <ImageDiv source={props.source}></ImageDiv>
+    </div>
   )
 }
 
-Button.defaultProps = {
-  label: "click me"
-};
-
-export default Button;
+export default ButtonAndImage;
