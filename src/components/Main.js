@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 import ButtonAndImage from './ButtonAndImage'
-import youngTissa from '../assets/IMG_1659.JPG'
+import youngTissa from '../assets/atTheComputer.png'
 
 const Main = () => {
   return (

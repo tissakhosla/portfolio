@@ -1,5 +1,7 @@
 .ImageDiv {
-  height: 140px;
-  width: 100px;
-  background: green;
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -9em;
 }

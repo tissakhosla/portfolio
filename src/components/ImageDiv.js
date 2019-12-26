@@ -1,4 +1,5 @@
 import React from 'react';
+import './ImageDiv.css'
 
 const imageDiv = (props) => {
   return (
