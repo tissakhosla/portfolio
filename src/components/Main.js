@@ -4,7 +4,7 @@ import ButtonAndImage from './ButtonAndImage';
 import ProfilePicture from '../assets/profilePicture.png';
 import youngTissaPic from '../assets/atTheComputer.png';
 import projectsPic from '../assets/projectsScreenshot.JPG';
-import resume from '../assets/Resume.pdf'
+import resume from '../assets/TK_Resume.pdf'
 
 const Main = () => {
   // let resumeURL = 'https://docs.google.com/document/d/13bowdC3RLGehTgP7H_aFoc_dOygcR18a6bh8rtgHAxM/edit?usp=sharing'
