@@ -1,38 +1,64 @@
-.Header__h1 {
+.Header__div {
+  display: flex;
+  justify-content: center;
+}
+
+.typewriter-text {
+  display: inline-block;
   font-size: 32px;
-  font-weight: lighter;
   font-family: monospace;
-  text-align: center;
+  overflow: hidden;
+  
+  animation: typing 5s steps(35, end), blink 1s step-end 6;
+  white-space: nowrap;
+  border-right: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 45%;
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: orange;
+  }
+  50% {
+    border-color: transparent;
+  }
 }
 
 /* My MacBook Air */
-@media only screen and (max-width: 1440px) {}
-
-/* iPad Pro */
-@media only screen and (max-width: 1024px) {}
-
-/* iPad */
-@media only screen and (max-width: 576px) {}
-
-/* iPhone 6,7,8 */
-@media only screen and (max-width: 375px) {}
-
-/* iPhone 5/SE */
-@media only screen and (max-width: 320px) {}
-
-/* Touch screen devices */
-/* @media (hover: none) and (pointer: coarse) {
-  
-} */
-/* body { background: blueviolet }
-body::after{ content: "I don't know what you are using to click" }
-
-@media (pointer: coarse) {
-  body { background: crimson }
-  body::after{ content: "Your primary input mechanism is a finger" }  
+@media only screen and (max-width: 1440px) {
 }
 
-@media (pointer: fine) {
-  body { background: goldenrod }
-  body::after{ content: "Your primary input mechanism is a mouse" }
-} */
+/* iPad Pro */
+@media only screen and (max-width: 1024px) {
+  .typewriter-text {
+    animation: none;
+  }
+}
+
+/* iPad */
+@media only screen and (max-width: 768px) {
+}
+
+/* Pixel 2, 2XL */
+@media only screen and (max-width: 411px) {
+  .typewriter-text {
+    white-space: normal;
+    text-align: center;
+  }
+}
+/* iPhone 6,7,8 */
+@media only screen and (max-width: 375px) {
+}
+
+/* iPhone 5/SE */
+@media only screen and (max-width: 320px) {
+}
