@@ -1,15 +1,19 @@
-.ImageDiv-writing, .ImageDiv-resume, .ImageDiv-projects {
-  width: 26vw;
-  height: 50vh;
+.ImageDiv-writing,
+.ImageDiv-resume,
+.ImageDiv-projects {
+  width: 30vw;
+  height: 77%;
   background-size: cover;
 }
 
 .ImageDiv-writing {
-  background-position: -13em;
+  background-position: right;
+  background-position: bottom;
 }
 
 /* My MacBook Air */
-@media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1440px) {
+}
 
 /* iPad Pro */
 @media only screen and (max-width: 1024px) {
@@ -20,7 +24,6 @@
 
 /* iPad */
 @media only screen and (max-width: 576px) {
-  
 }
 
 /* iPhone 6,7,8 */
@@ -28,9 +31,12 @@
   .ImageDiv-resume {
     background-position: -5.5rem;
   }
+
+  .ImageDiv-writing {
+    background-position: -10rem;
+  }
 }
 
 /* iPhone 5/SE */
-@media only screen and (max-width: 320px) {}
-
-
+@media only screen and (max-width: 320px) {
+}
