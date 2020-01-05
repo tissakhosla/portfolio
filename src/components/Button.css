@@ -18,9 +18,8 @@
 /* iPad Pro */
 @media only screen and (max-width: 1024px) {
   .Button__main {
-    border: solid rgba(55, 61, 63, 1)	 2.5px;
     font-size: 4vw;
-    padding: 1vw 6vw;
+    padding: 2vw 6vw;
   }
 }
 

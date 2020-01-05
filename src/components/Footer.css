@@ -1,5 +1,4 @@
 .site-footer {
-  margin-top: 4rem;
   display: flex;
   justify-content: center;
 }
@@ -9,4 +8,3 @@
   justify-content: space-evenly;
   width: 15vw;
 }
-
