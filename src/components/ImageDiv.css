@@ -9,6 +9,7 @@
 }
 
 /* My MacBook Air */
+@media only screen and (max-width: 1440px) {}
 
 /* iPad Pro */
 @media only screen and (max-width: 1024px) {
@@ -30,8 +31,6 @@
 }
 
 /* iPhone 5/SE */
-@media only screen and (max-width: 320px) {
-  
-}
+@media only screen and (max-width: 320px) {}
 
 

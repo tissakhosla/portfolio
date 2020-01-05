@@ -5,13 +5,3 @@
   align-items: center;
   justify-content: space-between;
 }
-
-.test {
-  color: white;
-}
-
-@media only screen and (max-width: 576px) {
-  .ButtonAndImage {
-    margin: 5px 0;
-  }
-}
