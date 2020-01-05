@@ -1,7 +1,7 @@
 .Button__main {
   border: solid rgb(55, 61, 63)	 2px;
   background: white;
-  font-size: 1.3rem;
+  font-size: 1.3vw;
   font-family: monospace;
   padding: 20px 40px;
 }

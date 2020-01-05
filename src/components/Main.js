@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 import ButtonAndImage from './ButtonAndImage';
-import ProfilePicture from '../assets/profilePicture.png';
+import ProfilePicture from '../assets/profilePictureBig.png';
 import youngTissaPic from '../assets/atTheComputer.png';
 import projectsPic from '../assets/projectsScreenshot.JPG';
 import resume from '../assets/TK_Resume.pdf'
