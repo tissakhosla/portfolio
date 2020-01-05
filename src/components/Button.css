@@ -1,18 +1,25 @@
 .Button__main {
-  border: solid rgba(55, 61, 63, 1)	1px;
+  border: solid rgba(55, 61, 63, 1) 1px;
   background: white;
   font-size: 2vw;
-  font-family: 'Oswald', 'Times New Roman', Times, serif;
+  font-family: "Oswald", sans-serif;
   padding: 1vw 4vw;
 }
 
 .Button__main:hover {
-  background:  rgb(55, 61, 63);
+  background: rgb(55, 61, 63);
   color: white;
 }
 
 .Button__main:focus {
   outline: none;
+}
+
+@media (hover: none) {
+  .Button__main:hover {
+    background: rgb(255, 255, 255, 0);
+    color: rgb(55, 61, 63)
+  }
 }
 
 /* iPad Pro */
@@ -26,7 +33,7 @@
 /* iPhone 6,7,8 */
 @media only screen and (max-width: 375px) {
   .Button__main {
-    border: solid rgba(55, 61, 63, 1)	 1.5px;
+    border: solid rgba(55, 61, 63, 1) 1.5px;
     font-size: 6vw;
     padding: 1vw 3vw;
   }
