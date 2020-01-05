@@ -1,9 +1,9 @@
 .Button__main {
-  border: solid rgb(55, 61, 63)	 2px;
+  border: solid rgba(55, 61, 63, 1)	1px;
   background: white;
-  font-size: 1.3vw;
-  font-family: monospace;
-  padding: 20px 40px;
+  font-size: 2vw;
+  font-family: 'Oswald', 'Times New Roman', Times, serif;
+  padding: 1vw 4vw;
 }
 
 .Button__main:hover {
@@ -13,4 +13,22 @@
 
 .Button__main:focus {
   outline: none;
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) {
+  .Button__main {
+    border: solid rgba(55, 61, 63, 1)	 2.5px;
+    font-size: 4vw;
+    padding: 1vw 6vw;
+  }
+}
+
+/* iPhone 6,7,8 */
+@media only screen and (max-width: 375px) {
+  .Button__main {
+    border: solid rgba(55, 61, 63, 1)	 1.5px;
+    font-size: 6vw;
+    padding: 1vw 3vw;
+  }
 }
