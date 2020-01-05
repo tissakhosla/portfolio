@@ -20,3 +20,20 @@
 
 /* iPhone 5/SE */
 @media only screen and (max-width: 320px) {}
+
+/* Touch screen devices */
+/* @media (hover: none) and (pointer: coarse) {
+  
+} */
+/* body { background: blueviolet }
+body::after{ content: "I don't know what you are using to click" }
+
+@media (pointer: coarse) {
+  body { background: crimson }
+  body::after{ content: "Your primary input mechanism is a finger" }  
+}
+
+@media (pointer: fine) {
+  body { background: goldenrod }
+  body::after{ content: "Your primary input mechanism is a mouse" }
+} */
