@@ -9,7 +9,7 @@
   font-family: monospace;
   overflow: hidden;
   
-  animation: typing 5s steps(35, end), blink .6s step-end 13;
+  animation: typing 3.5s steps(35, end), blink .6s step-end 13;
   white-space: nowrap;
   border-right: 2px solid transparent;
   box-sizing: border-box;
