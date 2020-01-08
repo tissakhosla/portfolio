@@ -9,7 +9,7 @@
   font-family: monospace;
   overflow: hidden;
   
-  animation: typing 5s steps(35, end), blink 1s step-end 6;
+  animation: typing 5s steps(35, end), blink 2s step-end 6;
   white-space: nowrap;
   border-right: 2px solid transparent;
   box-sizing: border-box;
@@ -39,21 +39,23 @@
 
 /* iPad Pro */
 @media only screen and (max-width: 1024px) {
-  .typewriter-text {
-    animation: none;
-  }
 }
 
 /* iPad */
 @media only screen and (max-width: 768px) {
 }
 
-/* Pixel 2, 2XL */
-@media only screen and (max-width: 411px) {
-  .typewriter-text {
+/* iPhone 6,7,8  PLUS */
+@media only screen and (max-width: 414px) {
+    .typewriter-text {
+    animation: none;
     white-space: normal;
     text-align: center;
   }
+}
+
+/* Pixel 2, 2XL */
+@media only screen and (max-width: 411px) {
 }
 /* iPhone 6,7,8 */
 @media only screen and (max-width: 375px) {
