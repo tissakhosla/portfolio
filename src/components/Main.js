@@ -3,7 +3,7 @@ import './Main.css';
 import ButtonAndImage from './ButtonAndImage';
 import ProfilePicture from '../assets/profilePictureBig.png';
 import youngTissaPic from '../assets/writing.png';
-import projectsPic from '../assets/projectsScreenshot.JPG';
+import projectsPic from '../assets/projectsScreenshot.png';
 import resume from '../assets/TK_Resume.pdf'
 import projects from '../assets/Projects.pdf'
 
