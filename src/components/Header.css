@@ -9,7 +9,7 @@
   font-family: monospace;
   overflow: hidden;
   
-  animation: typing 5s steps(35, end), blink 2s step-end 6;
+  animation: typing 5s steps(35, end), blink .6s step-end 13;
   white-space: nowrap;
   border-right: 2px solid transparent;
   box-sizing: border-box;
@@ -43,15 +43,15 @@
 
 /* iPad */
 @media only screen and (max-width: 768px) {
-}
-
-/* iPhone 6,7,8  PLUS */
-@media only screen and (max-width: 414px) {
-    .typewriter-text {
+  .typewriter-text {
     animation: none;
     white-space: normal;
     text-align: center;
   }
+}
+
+/* iPhone 6,7,8  PLUS */
+@media only screen and (max-width: 414px) {
 }
 
 /* Pixel 2, 2XL */
