@@ -4,8 +4,8 @@ import ButtonAndImage from './ButtonAndImage';
 import ProfilePicture from '../assets/profilePictureBig.png';
 import aboutPic from '../assets/About_pic.JPG';
 import projectsPic from '../assets/projectsScreenshot.png';
-import resumePDF from '../assets/TK_Resume.pdf'
-import projectsPDF from '../assets/Projects.pdf'
+import resumePDF from '../assets/Portfolio_Resume.pdf'
+import projectsPDF from '../assets/Portfolio_Projects.pdf'
 import aboutPDF from '../assets/Dev_Bio.pdf'
 
 const Main = () => {
