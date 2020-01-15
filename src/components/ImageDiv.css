@@ -1,4 +1,4 @@
-.ImageDiv-writing,
+.ImageDiv-about,
 .ImageDiv-resume,
 .ImageDiv-projects {
   width: 30vw;
@@ -6,7 +6,7 @@
   background-size: cover;
 }
 
-.ImageDiv-writing {
+.ImageDiv-about {
   background-position: right;
   background-position: bottom;
 }
@@ -28,8 +28,8 @@
   .ImageDiv-resume {
     background-position: -6rem;
   }
-  .ImageDiv-writing {
-    background-position: -10rem;
+  .ImageDiv-about {
+    background-position: 8rem;
   }
 }
 

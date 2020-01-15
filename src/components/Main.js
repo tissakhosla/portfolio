@@ -2,37 +2,37 @@ import React from 'react';
 import './Main.css';
 import ButtonAndImage from './ButtonAndImage';
 import ProfilePicture from '../assets/profilePictureBig.png';
-import youngTissaPic from '../assets/writing.png';
+import aboutPic from '../assets/About_pic.JPG';
 import projectsPic from '../assets/projectsScreenshot.png';
-import resume from '../assets/TK_Resume.pdf'
-import projects from '../assets/Projects.pdf'
+import resumePDF from '../assets/TK_Resume.pdf'
+import projectsPDF from '../assets/Projects.pdf'
+import aboutPDF from '../assets/Dev_Bio.pdf'
 
 const Main = () => {
-  // let resumeURL = 'https://docs.google.com/document/d/13bowdC3RLGehTgP7H_aFoc_dOygcR18a6bh8rtgHAxM/edit?usp=sharing'
-  let writingURL = 'https://medium.com/@the_new_old_fashioned'
+
 
   return (
     <div className='Main'>
       <ButtonAndImage
         altText='Tissa in front of a mural'
         item='resume'
-        link={resume}
+        link={resumePDF}
         label='RESUME'
         source={ProfilePicture}>
       </ButtonAndImage>
       <ButtonAndImage
         altText='Screenshot of Spotify API code'
         item='projects'
-        link={projects}
+        link={projectsPDF}
         label='PROJECTS'
         source={projectsPic}>
       </ButtonAndImage>
       <ButtonAndImage
-        altText='Tissa at 8 years old at the PC'
-        item='writing'
-        link={writingURL}
-        label='WRITING'
-        source={youngTissaPic}>
+        altText='A pile of instruments on a shelf in disrepair.'
+        item='about'
+        link={aboutPDF}
+        label='ABOUT'
+        source={aboutPic}>
       </ButtonAndImage>
     </div>
   )
